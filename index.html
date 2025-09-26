@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LuxTaş Nakliyat | Profesyonel Taşımacılık Hizmetleri</title>
+    <meta name="description" content="LuxTaş Nakliyat ile güvenli, hızlı ve profesyonel taşımacılık hizmetleri. Şehir içi ve şehirler arası nakliye çözümleri.">
+    <meta name="keywords" content="nakliyat, taşımacılık, şehir içi nakliye, şehirler arası nakliye, evden eve taşıma, LuxTaş">
+    <meta name="author" content="LuxTaş Nakliyat">
+    <link rel="icon" type="image/x-icon" href="assets/img/luxtas_head_icon.png">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- ...existing code... -->
+</head>
+<body>
+    <!-- HTML -->
+    <div class="floating-buttons">
+        <!-- Telefon (kırmızı) -->
+        <a href="tel:+905555555555" class="floating-phone phone-red" aria-label="Telefon 1">📞</a>
+
+        <!-- WhatsApp (yeşil) -->
+        <a href="https://wa.me/904444444444" class="floating-phone whatsapp-green" aria-label="WhatsApp 2" target="_blank" rel="noopener">💬</a>
+    </div>
+    <div class="topbar">
+        <div class="contact-info">
+            <span class="phone">📞 0 (555) 123 45 67</span>
+            <span class="mail">✉️ info@luxtas.com</span>
+        </div>
+        <div class="social-icons">
+            <a href="#" class="social facebook" aria-label="Facebook"></a>
+            <a href="#" class="social twitter" aria-label="Twitter"></a>
+            <a href="#" class="social linkedin" aria-label="LinkedIn"></a>
+        </div>
+    </div>
+    <header>
+        <div class="header-inner">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="assets/img/luxtas_logo.png" alt="LuxTaş Nakliyat Logo">
+                    <span class="logo-tagline">Kurumsal Ev-Ofis Taşıma & Depolama</span>
+                </a>
+            </div>
+            <nav>
+            <button class="menu-toggle">☰ Menü</button>
+            <ul>
+                <li><a href="index.html"><span class="nav-icon home"></span> Ana Sayfa</a></li>
+                <li><a href="about.html"><span class="nav-icon about"></span> Hakkımızda</a></li>
+                
+                <!-- Dropdown Hizmetlerimiz -->
+                <li class="nav-item dropdown">
+                    <a href="index.html" class="dropdown-toggle"><span class="nav-icon services"></span> Hizmetlerimiz</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="index.html">Depo Kiralama</a></li>
+                        <li><a href="index.html">Evden Eve Nakliyat</a></li>
+                        <li><a href="index.html">Güvenli Taşıma</a></li>
+                        <li><a href="index.html">Şehirler Arası Nakliyat</a></li>
+                        <li><a href="index.html">Sigortalı Taşıma</a></li>
+                        <li><a href="index.html">Uluslararası Nakliyat</a></li>
+                    </ul>
+                </li>
+
+                <li><a href="contact.html"><span class="nav-icon contact"></span> İletişim</a></li>
+            </ul>
+            <a href="contact.html" class="btn-contact">Bize Ulaşın</a>
+        </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="hero-slider">
+            <div class="slider-container">
+                <button class="slider-btn prev">❮</button>
+                <div class="slides">
+                    <div class="slide active">
+                        <img src="assets/img/luxtas_main.jpeg" alt="Nakliyat Hizmetleri">
+                    </div>
+                    <div class="slide">
+                        <img src="assets/img/luxtas_tir.jpeg" alt="Profesyonel Taşımacılık">
+                    </div>
+                </div>
+                <button class="slider-btn next">❯</button>
+            </div>
+        </div>
+
+        <div class="hero-content">
+            <h2 class="slogan">Eşyalarınız Bizimle Güvende</h2>
+            <p class="hero-text">Profesyonel ekibimiz ve modern araç filomuzla 20 yıldır hizmetinizdeyiz.</p>
+            <a href="contact.html" class="cta-button">Hemen Teklif Alın</a>
+        </div>
+        
+        <section class="services-section">
+            <div class="services-container">
+                <h2 class="section-title">Hizmetlerimiz</h2>
+                <div class="services-grid">
+                    <div class="service-card" onclick="openModal('sehirler-arasi')">
+                        <div class="service-icon">🚛</div>
+                        <h3 class="service-title">Şehirler Arası Nakliyat</h3>
+                        <p class="service-description">Türkiye'nin her noktasına güvenli ve profesyonel taşımacılık hizmeti sunuyoruz.</p>
+                    </div>
+                    
+                    <div class="service-card" onclick="openModal('evden-eve')">
+                        <div class="service-icon">🏠</div>
+                        <h3 class="service-title">Evden Eve Nakliyat</h3>
+                        <p class="service-description">Eşyalarınızı özenle paketliyor, yeni evinize güvenle taşıyoruz.</p>
+                    </div>
+                    
+                    <div class="service-card" onclick="openModal('ofis-tasimaciligi')">
+                        <div class="service-icon">🏢</div>
+                        <h3 class="service-title">Ofis Taşımacılığı</h3>
+                        <p class="service-description">İş yerinizi minimum kesinti ile yeni lokasyonunuza taşıyoruz.</p>
+                    </div>
+                    
+                    <div class="service-card" onclick="openModal('paketleme-hizmeti')">
+                        <div class="service-icon">📦</div>
+                        <h3 class="service-title">Paketleme Hizmeti</h3>
+                        <p class="service-description">Özel paketleme malzemeleri ile eşyalarınızı güvenle paketliyoruz.</p>
+                    </div>
+                    
+                    <div class="service-card" onclick="openModal('parsiyel-tasimacilik')">
+                        <div class="service-icon">🚚</div>
+                        <h3 class="service-title">Parsiyel Taşımacılık</h3>
+                        <p class="service-description">Küçük yükleriniz için ekonomik ve hızlı parsiyel taşıma çözümleri.</p>
+                    </div>
+                    
+                    <div class="service-card" onclick="openModal('depolama-hizmeti')">
+                        <div class="service-icon">🏭</div>
+                        <h3 class="service-title">Depolama Hizmeti</h3>
+                        <p class="service-description">Güvenli ve modern depolama tesislerimizde eşyalarınızı koruyoruz.</p>
+                    </div>
+                </div>
+                <div class="more-services">
+                    <a href="services.html" class="more-link">Daha fazlası için tıklayınız →</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="why-us">
+            <div class="why-us-container">
+                <h2 class="section-title">Neden Biz?</h2>
+                <p class="why-us-text">
+                    LuxTaş Nakliyat olarak <strong>güvenilir nakliyat</strong> ve 
+                    <strong>profesyonel taşımacılık</strong> hizmetlerini 20 yıllık tecrübemizle sunuyoruz. 
+                    Müşteri memnuniyetini ön planda tutan anlayışımız, modern araç filomuz ve 
+                    deneyimli ekibimiz ile <strong>evden eve nakliyat</strong> ve 
+                    <strong>şehirler arası nakliyat</strong> çözümlerinde fark yaratıyoruz. 
+                    Eşyalarınızın güvenliği için <strong>sigortalı taşımacılık</strong> hizmeti sağlıyor, 
+                    her bütçeye uygun fiyat seçenekleri ile ekonomik çözümler sunuyoruz.  
+                    Türkiye’nin her noktasına hızlı, güvenli ve kaliteli taşımacılık için LuxTaş Nakliyat’a güvenebilirsiniz.
+                </p>
+                <br>
+                <p class="why-us-text">
+                    Özellikle <strong>İzmir evden eve nakliyat</strong> hizmetlerimiz, şehir içi ve şehirler arası
+                    taşımacılıkta kaliteyi ve güveni bir arada sunar. Eşyalarınızı özenle paketleyerek,
+                    profesyonel taşıma ekibimiz ile güvenli bir şekilde yeni adresinize ulaştırıyoruz.
+                    <strong>İzmir evden eve nakliyat</strong> süreçlerinde modern araçlarımız ve uzman personelimiz
+                    sayesinde hızlı, ekonomik ve sorunsuz taşımacılık sağlıyoruz. İster küçük daire, ister büyük
+                    ofis taşıması olsun; ihtiyacınıza özel çözümler üretiyoruz. 
+                </p>
+                <br>
+                <p class="why-us-text">
+                    LuxTaş Nakliyat, <strong>İzmir evden eve nakliyat</strong> alanında müşteri odaklı yaklaşımı
+                    ile öne çıkmaktadır. Sigortalı taşımacılık, uygun fiyat seçenekleri, ücretsiz ekspertiz
+                    ve profesyonel destekle taşınma sürecini kolaylaştırıyoruz. Eşyalarınızı kendi eşyamız gibi
+                    koruyarak, güvenli ve planlı bir şekilde taşıyoruz. Eğer siz de sorunsuz bir
+                    <strong>İzmir evden eve nakliyat</strong> deneyimi yaşamak istiyorsanız doğru adrestesiniz. 
+                </p>
+                <br>
+                <p class="why-us-text">
+                    Her geçen gün büyüyen referanslarımız, İzmir’deki binlerce mutlu müşterimiz ve 20 yılı aşkın
+                    tecrübemizle <strong>İzmir evden eve nakliyat</strong> sektöründe lider konumdayız. Siz de
+                    güvenli, hızlı ve ekonomik taşımacılık için LuxTaş Nakliyat’ı tercih edin. 
+                </p>
+            </div>
+        </section>
+
+        <!-- Modal yapısı -->
+        <div id="serviceModal" class="modal">
+            <div class="modal-content">
+                <span class="close-modal">&times;</span>
+                <img id="modalImage" src="" alt="Hizmet Görseli">
+                <h3 id="modalTitle"></h3>
+                <p id="modalDescription"></p>
+            </div>
+        </div>
+
+        <section class="testimonials">
+            <div class="testimonials-container">
+                <h2 class="section-title">Müşteri Yorumları</h2>
+                <div class="testimonials-slider">
+                    <button class="testimonial-btn prev">❮</button>
+                    <div class="testimonials-grid">
+                        <div class="testimonial-card">
+                            <h4 class="testimonial-author">Ayşe Kaya</h4>
+                            <p class="testimonial-location">Karşıyaka / İzmir</p>
+                            <p class="testimonial-text">"Eşyalarım özenle paketlendi ve hiçbir zarar görmeden yeni evime taşındı. Tüm ekip çok ilgiliydi."</p>
+                            <div class="stars">★★★★★</div>
+                        </div>
+
+                        <div class="testimonial-card">
+                            <h4 class="testimonial-author">Mehmet Demir</h4>
+                            <p class="testimonial-location">Bornova / İzmir</p>
+                            <p class="testimonial-text">"Profesyonel ekip ve hızlı hizmet. Özellikle hassas eşyalarımın taşınmasında gösterdikleri özen takdire şayan."</p>
+                            <div class="stars">★★★★★</div>
+                        </div>
+
+                        <div class="testimonial-card">
+                            <h4 class="testimonial-author">Zeynep Yılmaz</h4>
+                            <p class="testimonial-location">Konak / İzmir</p>
+                            <p class="testimonial-text">"İkinci kez tercih ettim, yine çok memnun kaldım. Güvenilir ve kaliteli hizmet."</p>
+                            <div class="stars">★★★★★</div>
+                        </div>
+
+                        <div class="testimonial-card hidden">
+                            <h4 class="testimonial-author">Ali Çelik</h4>
+                            <p class="testimonial-location">Bostanlı / İzmir</p>
+                            <p class="testimonial-text">"Tam zamanında geldiler ve söz verdikleri gibi aynı gün içinde taşınma işlemi bitti."</p>
+                            <div class="stars">★★★★★</div>
+                        </div>
+
+                        <div class="testimonial-card hidden">
+                            <h4 class="testimonial-author">Selin Doğan</h4>
+                            <p class="testimonial-location">Mavişehir / İzmir</p>
+                            <p class="testimonial-text">"Çok titiz çalışıyorlar. Eşyalarım güvenle yeni evime ulaştı."</p>
+                            <div class="stars">★★★★★</div>
+                        </div>
+
+                        <div class="testimonial-card hidden">
+                            <h4 class="testimonial-author">Can Yücel</h4>
+                            <p class="testimonial-location">Buca / İzmir</p>
+                            <p class="testimonial-text">"Fiyat ve hizmet kalitesi açısından tam not veriyorum. Kesinlikle tavsiye ederim."</p>
+                            <div class="stars">★★★★★</div>
+                        </div>
+                    </div>
+                    <button class="testimonial-btn next">❯</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer id="footer" class="fixed underline-effect">
+        <div class="upper-footer">
+            <div class="container">
+                <div class="footer-widget-area">
+                    <div class="footer-column">
+                        <div class="footer-widget">
+                            <img src="assets/img/luxtas_footer_logo.png" alt="LuxTaş Logo" width="180">
+                            <ul class="social-icons-footer">
+                                <li><a href="#"><i class="social facebook"></i></a></li>
+                                <li><a href="#"><i class="social twitter"></i></a></li>
+                                <li><a href="#"><i class="social linkedin"></i></a></li>
+                                <li><a href="#"><i class="social instagram"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="footer-column">
+                        <div class="footer-widget">
+                            <h5 class="widget-title">Hizmetlerimiz</h5>
+                            <ul class="footer-menu">
+                                <li><a href="#">Depo Kiralama</a></li>
+                                <li><a href="#">Evden Eve Nakliyat</a></li>
+                                <li><a href="#">Güvenli Taşıma</a></li>
+                                <li><a href="#">Şehirler Arası Nakliyat</a></li>
+                                <li><a href="#">Sigortalı Taşıma</a></li>
+                                <li><a href="#">Uluslararası Nakliyat</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="footer-column">
+                        <div class="footer-widget">
+                            <h5 class="widget-title">Kurumsal</h5>
+                            <ul class="footer-menu">
+                                <li><a href="#">Hakkımızda</a></li>
+                                <li><a href="#">Misyonumuz</a></li>
+                                <li><a href="#">Vizyonumuz</a></li>
+                                <li><a href="#">Foto Galeri</a></li>
+                                <li><a href="#">Belgelerimiz</a></li>
+                                <li><a href="#">Blog</a></li>
+                                <li><a href="#">İletişim</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="footer-column">
+                        <div class="footer-widget">
+                            <h5 class="widget-title">Nakliyat</h5>
+                            <ul class="footer-menu">
+                                <li><a href="#">Asansörlü Taşıma</a></li>
+                                <li><a href="#">Fabrika Taşıma</a></li>
+                                <li><a href="#">Güvenli Taşıma</a></li>
+                                <li><a href="#">Ofis Taşıma</a></li>
+                                <li><a href="#">Okul Taşıma</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="lower-footer">
+            <div class="container">
+                <span>Web sitesinde yer alan tüm içerik LuxTaş'a aittir. İzinsiz kullanılması durumunda yasal işlem başlatılacaktır.</span>
+            </div>
+        </div>
+        <div class="back-to-top">
+            <i class="nav-icon up">↑</i>
+        </div>
+    </footer>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>

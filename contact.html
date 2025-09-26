@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>İletişim | LuxTaş Nakliyat</title>
+    <link rel="icon" type="image/x-icon" href="assets/img/luxtas_head_icon.png">
+    <link rel="stylesheet" href="assets/css/contact_style.css">
+</head>
+<body>
+    <div class="floating-buttons">
+        <!-- Telefon (kırmızı) -->
+        <a href="tel:+905555555555" class="floating-phone phone-red" aria-label="Telefon 1">📞</a>
+
+        <!-- WhatsApp (yeşil) -->
+        <a href="https://wa.me/904444444444" class="floating-phone whatsapp-green" aria-label="WhatsApp 2" target="_blank" rel="noopener">💬</a>
+    </div>
+    <!-- Header -->
+    <div class="topbar">
+        <div class="contact-info">
+            <span class="phone">📞 0 (555) 123 45 67</span>
+            <span class="mail">✉️ info@luxtas.com</span>
+        </div>
+        <div class="social-icons">
+            <a href="#" class="social facebook" aria-label="Facebook"></a>
+            <a href="#" class="social twitter" aria-label="Twitter"></a>
+            <a href="#" class="social linkedin" aria-label="LinkedIn"></a>
+        </div>
+    </div>
+    <header>
+        <div class="header-inner">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="assets/img/luxtas_logo.png" alt="LuxTaş Nakliyat Logo">
+                    <span class="logo-tagline">Kurumsal Ev-Ofis Taşıma & Depolama</span>
+                </a>
+            </div>
+            <nav>
+                <button class="menu-toggle">☰ Menü</button>
+                <ul>
+                    <li><a href="index.html">Ana Sayfa</a></li>
+                    <li><a href="about.html">Hakkımızda</a></li>
+                    <li class="nav-item dropdown">
+                        <a href="index.html">Hizmetlerimiz</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="index.html">Depo Kiralama</a></li>
+                            <li><a href="index.html">Evden Eve Nakliyat</a></li>
+                            <li><a href="index.html">Güvenli Taşıma</a></li>
+                            <li><a href="index.html">Şehirler Arası Nakliyat</a></li>
+                            <li><a href="index.html">Sigortalı Taşıma</a></li>
+                            <li><a href="index.html">Uluslararası Nakliyat</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="contact.html">İletişim</a></li>
+                </ul>
+                <a href="contact.html" class="btn-contact">Bize Ulaşın</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="contact-section">
+            <div class="contact-container">
+                <!-- Sol sütun: Şirket Bilgileri -->
+                <div class="contact-left">
+                    <h3>İletişim Bilgilerimiz</h3>
+                    <p><strong>Adres:</strong> Örnek Mah. LuxTaş Sok. No:12, İstanbul</p>
+                    <p><strong>Telefon:</strong> +90 555 123 45 67</p>
+                    <p><strong>Email:</strong> info@luxtas.com</p>
+                </div>
+
+                <!-- Sağ sütun: Form -->
+                <div class="contact-right">
+                    <h2>Bizimle İletişime Geçin</h2>
+                    <form class="contact-form">
+                        <div class="form-group">
+                            <label for="name">Ad Soyad</label>
+                            <input type="text" id="name" name="name" placeholder="Adınız ve Soyadınız" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" placeholder="Email adresiniz" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Konu</label>
+                            <input type="text" id="subject" name="subject" placeholder="Mesaj konusu" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">İleti</label>
+                            <textarea id="message" name="message" placeholder="Mesajınız..." rows="6" required></textarea>
+                        </div>
+                        <button type="submit" class="btn-submit">Gönder</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <!-- Google Map -->
+        <section class="map-section">
+            <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3124.029649280052!2d27.108137899999996!3d38.463876799999994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14bbd9413a3a79ff%3A0xf2cfc45eb5a83730!2zTMO8eHRhxZ8gTmFrbGl5YXQ!5e0!3m2!1str!2str!4v1758895025394!5m2!1str!2str"
+                frameborder="0"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+        </section>
+    </main>
+
+    <footer id="footer" class="fixed underline-effect">
+        <div class="upper-footer">
+            <div class="container">
+                <div class="footer-widget-area">
+                    <div class="footer-column">
+                        <div class="footer-widget">
+                            <img src="assets/img/luxtas_footer_logo.png" alt="LuxTaş Logo" width="180">
+                            <ul class="social-icons-footer">
+                                <li><a href="#"><i class="social facebook"></i></a></li>
+                                <li><a href="#"><i class="social twitter"></i></a></li>
+                                <li><a href="#"><i class="social linkedin"></i></a></li>
+                                <li><a href="#"><i class="social instagram"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="footer-column">
+                        <div class="footer-widget">
+                            <h5 class="widget-title">Hizmetlerimiz</h5>
+                            <ul class="footer-menu">
+                                <li><a href="#">Depo Kiralama</a></li>
+                                <li><a href="#">Evden Eve Nakliyat</a></li>
+                                <li><a href="#">Güvenli Taşıma</a></li>
+                                <li><a href="#">Şehirler Arası Nakliyat</a></li>
+                                <li><a href="#">Sigortalı Taşıma</a></li>
+                                <li><a href="#">Uluslararası Nakliyat</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="footer-column">
+                        <div class="footer-widget">
+                            <h5 class="widget-title">Kurumsal</h5>
+                            <ul class="footer-menu">
+                                <li><a href="#">Hakkımızda</a></li>
+                                <li><a href="#">Misyonumuz</a></li>
+                                <li><a href="#">Vizyonumuz</a></li>
+                                <li><a href="#">Foto Galeri</a></li>
+                                <li><a href="#">Belgelerimiz</a></li>
+                                <li><a href="#">Blog</a></li>
+                                <li><a href="#">İletişim</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="footer-column">
+                        <div class="footer-widget">
+                            <h5 class="widget-title">Nakliyat</h5>
+                            <ul class="footer-menu">
+                                <li><a href="#">Asansörlü Taşıma</a></li>
+                                <li><a href="#">Fabrika Taşıma</a></li>
+                                <li><a href="#">Güvenli Taşıma</a></li>
+                                <li><a href="#">Ofis Taşıma</a></li>
+                                <li><a href="#">Okul Taşıma</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="lower-footer">
+            <div class="container">
+                <span>Web sitesinde yer alan tüm içerik LuxTaş'a aittir. İzinsiz kullanılması durumunda yasal işlem başlatılacaktır.</span>
+            </div>
+        </div>
+        <div class="back-to-top">
+            <i class="nav-icon up">↑</i>
+        </div>
+    </footer>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
